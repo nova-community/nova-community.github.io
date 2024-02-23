@@ -1,1 +1,101 @@
-Yo!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000000; /* Light blue from your palette */
+      color: #9a9fec; /* Dark blue from your palette */
+      text-align: center;
+      font-family: "Inter", sans-serif; /* Use Inter font if available, fallback to sans-serif */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 85vh;
+    }
+
+    .container {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff00; /* Semi-transparent white background */
+      border-radius: 10px; /* Rounded corners for the box */
+      max-width: 700px; /* Add a maximum width for responsiveness */
+      margin: 0 auto; /* Center the container horizontally */
+    }
+
+    h1 {
+      font-size: 50px;
+      font-family: "Inter", sans-serif; /* Use Inter font if available, fallback to sans-serif */
+      font-weight: bold;
+      text-shadow: -6px 5px 7px rgb(35, 23, 68);
+      margin-bottom: 20px;
+    }
+
+    .about-us {
+      text-align: left; /* Align text to the left */
+      line-height: 1.5; /* Add space between lines of text */
+      font-size: 20px; /* Increase font size for better readability */
+      text-shadow: -6px 5px 7px rgb(35, 23, 68);
+    }
+
+    .image-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("image.jpg"); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      filter: blur(30px); /* Add a slight blur effect for a more subtle background */
+      z-index: -1; /* Place image behind the content */
+    }
+
+    .social-media {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Add space between social media icons */
+    }
+
+    .social-media a {
+      color: #87677B; /* Dark blue from your palette */
+      font-size: 24px; /* Increase icon size */
+    }
+
+    .social-media a:hover {
+      color: #A0CFD3; /* Lighter blue from your palette on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container"></div>
+
+  <div class="container">
+    <h1>Welcome to Nova Community!</h1>
+    <p class="about-us">
+        Nova Community: Spark your creativity. Build something amazing.
+    </p>
+    <p class="about-us">
+        Welcome to Nova Community, a vibrant space where anyone can connect, collaborate, and bring their ideas to life. We're passionate about fostering creativity, inclusivity, and fun, regardless of your background or interests. Whether you love tech, art, music, or simply making new friends, there's a place for you here. Join us to:
+    </p>
+    <p class="about-us">
+        Collaborate on exciting projects: Share your skills, learn from others, and work together to build something remarkable.
+        Unleash your creativity: Explore your passions, experiment with new ideas, and find inspiration in our supportive community.
+        Make lifelong connections: Meet like-minded individuals, build friendships, and discover new perspectives.
+    </p>
+    <p class="about-us">
+        Nova Community is more than just a platform; it's a journey of learning, growth, and endless possibilities. Join us today and start building something amazing!
+    </p>
+  </div>
+</body>
