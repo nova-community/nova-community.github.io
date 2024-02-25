@@ -12,5 +12,15 @@
 </head>
 
 <body>
-  
+    <div class="checkbox-container">
+        <label for="checkbox">Enable WaveShaper:</label>
+        <input type="checkbox" id="checkbox" name="featureEnabled">
+    </div>
+    <a>
+        <button onclick="startOscillator('sine')">Sine</button>
+        <button onclick="startOscillator('sawtooth')">Saw</button>
+        <button onclick="startOscillator('square')">Square</button>
+        <button onclick="startOscillator('triangle')">Triangle</button>
+    </a>
+    <script src="script.js"></script>
 </body>
